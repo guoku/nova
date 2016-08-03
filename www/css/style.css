@@ -171,9 +171,6 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
 }
 nav {
   position: fixed;
