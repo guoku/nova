@@ -220,6 +220,20 @@ header {
   padding: 10px 16px 10px 0;
   border-bottom: 1px solid #E6E6E6;
 }
+.list-item .left-box {
+  float: left;
+}
+.list-item .main-box {
+  margin-left: 94px;
+  display: flex;
+}
+.list-item .main-box .main-info {
+  flex: 1;
+}
+.list-item .main-box .more-info {
+  margin-left: 4px;
+  text-align: right;
+}
 .normal-img-box {
   width: 80px;
   height: 80px;

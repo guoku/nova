@@ -225,9 +225,11 @@ header {
 }
 .list-item .main-box {
   margin-left: 94px;
+  display: -webkit-flex;
   display: flex;
 }
 .list-item .main-box .main-info {
+  -webkit-flex: 1;
   flex: 1;
 }
 .list-item .main-box .more-info {

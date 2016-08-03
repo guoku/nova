@@ -62,3 +62,14 @@
 .gray-body {
   background-color: #F8F8F8;
 }
+.cart-item-container .entity-title {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.cart-item-container .entity-sku,
+.cart-item-container .count {
+  color: #757575;
+}
+.cart-item-container .price {
+  color: #5976c1;
+}
