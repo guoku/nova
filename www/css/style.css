@@ -237,29 +237,18 @@ header {
 .list-item .left-box {
   float: left;
 }
-.list-item .flex-main-box {
+.list-item .main-box {
   margin-left: 94px;
   display: -webkit-flex;
   display: flex;
 }
-.list-item .flex-main-box .flex-main-info {
+.list-item .main-box .main-info {
   -webkit-flex: 1;
   flex: 1;
 }
-.list-item .flex-main-box .more-info {
+.list-item .main-box .more-info {
   margin-left: 14px;
   text-align: right;
-}
-.list-item .main-box {
-  margin-left: 94px;
-  display: table;
-}
-.list-item .main-box .more-info,
-.list-item .main-box .more-info {
-  display: table-cell;
-}
-.list-item .main-box .more-info {
-  padding-left: 14px;
 }
 .normal-img-box {
   width: 80px;
