@@ -48,6 +48,11 @@ body {
   font-size: @common-text-size;
 }
 
+h1{
+  font-weight: @normal-font-weight;
+  font-size: @primary-title-size;
+}
+
 //Tab bar
 nav{
   position:fixed;
@@ -107,12 +112,14 @@ header{
   }
   .main-box{
     margin-left:94px;
+    display: -webkit-flex;
     display: flex;
     .main-info{
+      -webkit-flex:1;
       flex: 1;
     }
     .more-info{
-      margin-left:4px;
+      margin-left:14px;
       text-align: right;
     }
   }

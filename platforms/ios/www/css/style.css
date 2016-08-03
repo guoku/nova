@@ -172,6 +172,10 @@ body {
   -webkit-font-smoothing: antialiased;
   font-size: 14px;
 }
+h1 {
+  font-weight: 500;
+  font-size: 17px;
+}
 nav {
   position: fixed;
   left: 0;
@@ -225,13 +229,15 @@ header {
 }
 .list-item .main-box {
   margin-left: 94px;
+  display: -webkit-flex;
   display: flex;
 }
 .list-item .main-box .main-info {
+  -webkit-flex: 1;
   flex: 1;
 }
 .list-item .main-box .more-info {
-  margin-left: 4px;
+  margin-left: 14px;
   text-align: right;
 }
 .normal-img-box {

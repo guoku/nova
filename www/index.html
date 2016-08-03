@@ -40,20 +40,21 @@
         <title>Hello World</title>
     </head>
     <body class="gray-body">
-        <section class="active" id="view-cart">
+
+        <section class="hidden" id="order_detail_view">
             <header>
-                <h1>购物车</h1>
+                <h1>订单详情</h1>
             </header>
             <div class="scroll-wrapper">
                 <div class="scroll-content">
-                    <ul class="list-container cart-item-container">
+                    <ul class="list-container order-item-container">
                         <li class="list-item">
                             <div class="inner-li">
                                 <div class="left-box normal-img-box">
                                     <div class="normal-img" style="background-image: url('img/tv.jpg')"></div>
                                 </div>
-                                <div class="main-box">
-                                    <div class="main-info">
+                                <div class="flex-main-box">
+                                    <div class="flex-main-info">
                                         <div class="entity-title">
                                             TLD毒质 American Icon美国标志短袖卫衣
                                         </div>
@@ -79,5 +80,78 @@
             </div>
 
         </section>
+
+        <section class="active" id="cart_item_list_view">
+            <header>
+                <h1>购物车</h1>
+            </header>
+            <div class="scroll-wrapper">
+                <div class="scroll-content">
+                    <ul class="list-container cart-item-container">
+                        <li class="list-item">
+                            <div class="inner-li">
+                                <div class="left-box normal-img-box">
+                                    <div class="normal-img" style="background-image: url('img/tv.jpg')"></div>
+                                </div>
+                                <div class="main-box">
+                                    <div class="main-info">
+                                        <div class="entity-title">
+                                            TLD毒质 American Icon美国标志短袖卫衣
+                                        </div>
+                                        <div class="price">
+                                            ￥369.00
+                                        </div>
+                                        <div class="entity-sku">
+                                            左新 黯然销魂掌/A4
+                                        </div>
+                                    </div>
+                                    <div class="more-info">
+                                        <button class="cart-count-action plus-count-btn" style="background-image: url('img/plus-btn.png')"></button>
+                                        <div class="count">
+                                            1
+                                        </div>
+                                        <button class="cart-count-action minus-count-btn" style="background-image: url('img/minus-btn.png')"></button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <script id="cart_item_tpl" type="text/template">
+
+        </script>
+
+        <script id="order_item_tpl" type="text/template">
+            <div class="inner-li">
+                <div class="left-box normal-img-box">
+                    <div class="normal-img" style="background-image: url('img/tv.jpg')"></div>
+                </div>
+                <div class="flex-main-box">
+                    <div class="flex-main-info">
+                        <div class="entity-title">
+                            TLD毒质 American Icon美国标志短袖卫衣
+                        </div>
+                        <div class="entity-sku">
+                            左新 黯然销魂掌/A4
+                        </div>
+                    </div>
+                    <div class="more-info">
+                        <div class="price">
+                            ￥369.00
+                        </div>
+                        <div class="count">
+                            x1
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </script>
     </body>
 </html>
