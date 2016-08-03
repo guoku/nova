@@ -59,6 +59,13 @@
   left: 0;
   background-color: rgba(0, 0, 0, 0.2);
 }
+button.cart-count-action {
+  width: 21px;
+  height: 21px;
+  background-size: 21px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 html,
 body,
 div,
@@ -207,6 +214,9 @@ header {
 .hidden {
   display: none;
 }
+.active {
+  display: block;
+}
 .scroll-wrapper {
   width: 100%;
   height: 100%;
@@ -227,18 +237,29 @@ header {
 .list-item .left-box {
   float: left;
 }
-.list-item .main-box {
+.list-item .flex-main-box {
   margin-left: 94px;
   display: -webkit-flex;
   display: flex;
 }
-.list-item .main-box .main-info {
+.list-item .flex-main-box .flex-main-info {
   -webkit-flex: 1;
   flex: 1;
 }
-.list-item .main-box .more-info {
+.list-item .flex-main-box .more-info {
   margin-left: 14px;
   text-align: right;
+}
+.list-item .main-box {
+  margin-left: 94px;
+  display: table;
+}
+.list-item .main-box .more-info,
+.list-item .main-box .more-info {
+  display: table-cell;
+}
+.list-item .main-box .more-info {
+  padding-left: 14px;
 }
 .normal-img-box {
   width: 80px;

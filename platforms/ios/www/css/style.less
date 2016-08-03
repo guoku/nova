@@ -90,6 +90,10 @@ header{
   display:none;
 }
 
+.active{
+  display: block;
+}
+
 .scroll-wrapper{
   width:100%;
   height:100%;
@@ -110,17 +114,27 @@ header{
   .left-box{
     float: left;
   }
-  .main-box{
+  .flex-main-box{
     margin-left:94px;
     display: -webkit-flex;
     display: flex;
-    .main-info{
+    .flex-main-info{
       -webkit-flex:1;
       flex: 1;
     }
     .more-info{
       margin-left:14px;
       text-align: right;
+    }
+  }
+  .main-box{
+    margin-left:94px;
+    display: table;
+    .more-info,.more-info{
+      display: table-cell;
+    }
+    .more-info{
+      padding-left: 14px;
     }
   }
 }

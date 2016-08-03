@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1347462-92fa-4359-91eb-d9583dcc550d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/minus-btn.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/www/img/plus-btn.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/HelloCordova.xcodeproj/project.xcworkspace/xcuserdata/zhangyao.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/platforms/ios/HelloCordova.xcodeproj/project.xcworkspace/xcuserdata/zhangyao.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/lib/widgets.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/lib/widgets.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/lib/widgets.less" afterPath="$PROJECT_DIR$/platforms/ios/www/css/lib/widgets.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/main.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/main.less" afterPath="$PROJECT_DIR$/platforms/ios/www/css/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.css" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/css/style.less" afterPath="$PROJECT_DIR$/platforms/ios/www/css/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/platforms/ios/www/index.html" afterPath="$PROJECT_DIR$/platforms/ios/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/lib/widgets.css" afterPath="$PROJECT_DIR$/www/css/lib/widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/lib/widgets.less" afterPath="$PROJECT_DIR$/www/css/lib/widgets.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/main.css" afterPath="$PROJECT_DIR$/www/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/main.less" afterPath="$PROJECT_DIR$/www/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.css" afterPath="$PROJECT_DIR$/www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/css/style.less" afterPath="$PROJECT_DIR$/www/css/style.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
     </list>
     <ignored path="nova.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
@@ -78,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+            <state relative-caret-position="345">
+              <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -117,8 +114,8 @@
         <option value="$PROJECT_DIR$/www/css/lib/var.less" />
         <option value="$PROJECT_DIR$/www/css/lib/widgets.less" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/www/css/main.less" />
         <option value="$PROJECT_DIR$/www/css/style.less" />
+        <option value="$PROJECT_DIR$/www/css/main.less" />
       </list>
     </option>
   </component>
@@ -304,12 +301,12 @@
       <option name="presentableId" value="Default" />
       <updated>1470125613545</updated>
       <workItem from="1470125616783" duration="7596000" />
-      <workItem from="1470189857251" duration="17920000" />
+      <workItem from="1470189857251" duration="18977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25516000" />
+    <option name="totallyTimeSpent" value="26573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -321,7 +318,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67945206" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16986302" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.083561644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31643835" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -490,18 +487,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/css/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding />
         </state>
       </provider>

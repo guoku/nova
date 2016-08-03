@@ -82,10 +82,8 @@ button.cart-count-action {
 }
 .cart-item-container .entity-title {
   font-weight: 500;
-  margin-bottom: 4px;
 }
 .cart-item-container .price {
-  margin-bottom: 4px;
   color: #5976c1;
 }
 .cart-item-container .entity-sku {
@@ -94,4 +92,6 @@ button.cart-count-action {
 .cart-item-container .count {
   text-align: center;
   color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
