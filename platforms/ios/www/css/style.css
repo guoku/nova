@@ -226,6 +226,7 @@ header {
 }
 .scroll-wrapper .scroll-content {
   padding-top: 45px;
+  padding-bottom: 50px;
 }
 .list-item {
   margin-left: 16px;
