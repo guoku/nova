@@ -206,14 +206,12 @@ header {
 .scroll-wrapper {
   width: 100%;
   height: 100%;
+  background-color: #FFFFFF;
   overflow-x: hidden;
   overflow-y: auto;
 }
 .scroll-wrapper .scroll-content {
   padding-top: 45px;
-}
-.list-container {
-  background-color: #FFFFFF;
 }
 .list-item {
   margin-left: 16px;
